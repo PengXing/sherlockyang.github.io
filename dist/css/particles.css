@@ -1,15 +1,19 @@
-.jumbotron {
+.jumbotron, .body {
 	position: relative;
 }
 
-.jumbotron .container {
+.jumbotron .container, .body .container {
 	position: relative;
 }
 
-#particles {
+#particles, #particles-body {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
+}
+
+#particles-body {
+	z-index: -1;
 }
